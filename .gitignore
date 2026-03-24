@@ -1,2 +1,40 @@
 .DS_Store
 .claude/settings.local.json
+./*.log
+.env
+.env.example
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### JRebel ###
+rebel.xml
+
+### CLAUDE ###
+**/.claude/
+CLAUDE.md
+
+### OMC CLI ###
+.omc
+
+### agent-office CLI ###
+agent-office
+
+### team-os CLI ###
+.team-os
